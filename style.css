@@ -2786,10 +2786,22 @@ margin-bottom: 36px;
 }
 
 .link-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     margin: 15px 0px;
     /* border: 5px solid red; */
 }
 
+.link-section a {
+    /* border: 1px solid blue; */
+}
+
+.mobile-register-svg {
+    margin-left: 10px;
+    width: auto;
+    /* border: 1px solid red; */
+}
 
 .mobile-third-preview {
     /* margin-top: 50px; */
@@ -3241,12 +3253,12 @@ margin-bottom: 36px;
     align-items: center;
     margin-top: 50px;
     overflow: hidden;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .cards-slide {
     min-width: 300px;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -3254,7 +3266,7 @@ margin-bottom: 36px;
     box-shadow: 0 0 25px rgba(0,0,0,.06);
     border-radius: 5px;
     padding: 22px 25px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 .cards-slide span{
